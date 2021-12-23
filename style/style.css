@@ -1,0 +1,272 @@
+
+body
+{
+    background-color: dimgrey; 
+    margin 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pojemnik
+{
+    align-content: center;  
+    width:1200px;
+    background-image: url(../img/1.png);
+    margin-left: auto;
+    margin-right: auto;
+    border: 2.5px solid #ccc;
+    color:white;
+}
+#pojemnik1
+{
+    text-align: left;
+    padding: 10px;
+    padding-left: 30px;
+}
+#pojemnik2
+{
+    float:left;
+    width: 580px;
+    margin:10px;
+}
+#pojemnik3
+{
+    float:left;
+    margin:20px;
+    width:560px;
+}
+#stopka 
+{
+    margin: 20px;
+    text-align: center;
+     width 100%;
+    height: 80%;
+}
+#Omnie
+{
+    text-shadow: 2px 2px darkred;
+    margin:10px;
+    letter-spacing: 3px;
+    padding:  10px;
+    height: 360px;
+    overflow:auto;
+    outline-color: white;
+    outline-width: thick;
+    outline-style: dotted;
+    outline-offset: 10px;
+    border: 1px solid white;
+}
+.poj
+{
+    width:100%;
+    height:230px;
+    clear:both;
+}
+.pojclas1
+{
+    text-align:center;
+    width:250px;
+    float:left;
+    margin:20px;
+    height: 180px;
+    border-radius: 55px;
+    background-color:dodgerblue
+}
+.pojclas2
+{
+    text-align:center;
+    width:250px;
+    float:left;
+    margin:20px;
+    height: 180px;
+    border-radius: 55px;
+    background-color:darkgreen;
+}
+.pojclas3
+{
+    text-align:center;
+    width:250px;
+    float:left;
+    margin:20px;
+    height: 180px;
+    border-radius: 55px;
+    background-color:dimgrey;
+}
+.pojclas4
+{
+    text-align:center;
+    width:250px;
+    float:left;
+    margin:20px;
+    border-radius: 55px;
+    height: 180px;
+    background-color:firebrick;
+}
+.pojclas5
+{
+    text-align:center;
+    width:250px;
+    float:left;
+    border-radius: 55px;
+    margin:20px;
+    height: 180px;
+    background-color:saddlebrown;
+}
+.pojclas6
+{
+    text-align:center;
+    width:250px;
+    float:left;
+    border-radius: 55px;
+    margin:20px;
+    height: 180px;
+    background-color:mediumslateblue;
+}
+.pojclas1:hover
+{
+    opacity:0.7;
+    border-radius: 70px;
+    cursor: pointer;
+}
+.pojclas2:hover
+{
+    opacity:0.7;
+    border-radius: 70px;
+    cursor: pointer;
+}
+.pojclas3:hover
+{
+    opacity:0.7;
+    border-radius: 70px;
+    cursor: pointer;
+}
+.pojclas4:hover
+{
+    opacity:0.7;
+    border-radius: 70px;
+    cursor: pointer;
+}
+.pojclas5:hover
+{
+    opacity:0.7;
+    border-radius: 70px;
+    cursor: pointer;
+}
+.pojclas6:hover
+{
+    opacity:0.7;
+    border-radius: 70px;
+    cursor: pointer;
+}
+#socialmedia
+{
+    width:100%;
+    height: 270px;
+}
+.socialmedia
+{
+    text-align: center;
+    float:left;
+    width:100px;
+    margin-left:20px;
+    margin-top:100px;
+    margin-right:20px;
+    height:100px;
+}
+.socialmedia:hover
+{
+    opacity:0.7;
+}
+.poj:hover
+{
+    opacity: :0.7;
+}
+a:link
+{
+    text-decoration: none;
+    color:white;
+}
+a.a{
+    width:250px;
+    height: 180px;
+    display: block;
+}
+h1
+{
+    color:dodgerblue;
+}
+h2
+{
+    color:dodgerblue;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: red;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+    font-size:16px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 110%;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent red transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+.tooltip1 {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip1 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+    font-size:16px;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip1 .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
+
+.tooltip1:hover .tooltiptext {
+  visibility: visible;
+}
